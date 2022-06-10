@@ -1,5 +1,5 @@
 # our base image
-FROM alpine:3.5
+FROM python:3.8
 
 # run the application
 CMD ["python", "test.py"]
